@@ -1,0 +1,32 @@
+
+@model List<ASPRad.Models.Utilisateurs>
+    @{
+    Layout = "_ReportLayout";
+    }
+    <div id="report-title"><h1></h1></div>
+    <table class="table table-sm table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Email</th>
+                <th>Tel</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var record in Model)
+            {
+            <tr>
+                <td>@record.id</td>
+                <td>@record.nom</td>
+                <td>@record.prenom</td>
+                <td>@record.email</td>
+                <td>@record.tel</td>
+            </tr>
+            }
+            
+        </tbody>
+    </table>
+    
+    

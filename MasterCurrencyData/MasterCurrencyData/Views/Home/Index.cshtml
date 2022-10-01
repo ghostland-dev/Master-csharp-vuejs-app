@@ -1,0 +1,27 @@
+﻿@model MasterCurrencyData.Models.Currency
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="card p-3 shadow-2 display-4">Welcome to Currency VX</h1>
+    <p>Find out everything about currencies in our ASP.NET </p>
+</div>
+<div class="container d-flex text-center align-items-center justify-content-center">
+    <div class="row">
+        <div class="col-md-4 text-center card  m-1 p-2">
+            <h3>EUR @Html.DisplayNameFor(model => model.Id)</h3>
+            Europ Euros
+        </div>
+        <div class="col-md-4 text-center card m-1  p-2">
+            <h3>USD @Html.DisplayNameFor(model => model.Id)</h3>
+            United States Dollar
+        </div>
+        <div class="col-md-4 text-center card m-1  p-2">
+            <h3>MAD @Html.DisplayNameFor(model => model.Id)</h3>
+            Marrocan Dirhams
+        </div>
+
+
+    </div>
+</div>

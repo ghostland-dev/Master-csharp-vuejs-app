@@ -1,0 +1,85 @@
+.p-toast.p-toast-top-right {
+	z-index: 1000;
+	top: 7rem;
+}
+
+::v-deep(.editable-cells-table td.p-cell-editing) {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.p-splitbutton.p-button {
+	padding: 0 !important;
+	min-width: auto !important;
+}
+
+.img-fluid {
+	max-width: 100%;
+}
+
+
+
+.search-result-holder {
+	max-width: 90vw;
+	position: absolute;
+	z-index: 10000;
+	width: 100%;
+	background-color: var(--surface-card);
+}
+
+.search-result-holder .result-list {
+	max-height: 400px;
+	overflow: auto;
+	min-height: 200px;
+}
+
+
+
+/* container component */
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+
+
+
+/* reset grids when placed in non fluid component */
+.reset-grid .container .comp-grid, 
+.reset-grid .container-fluid .comp-grid, 
+.p-dialog .container .comp-grid, 
+.p-dialog .container-fluid .comp-grid, 
+.p-sidebar .container .comp-grid, 
+.p-sidebar .container-fluid .comp-grid {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+#master-detailpage{
+	scroll-margin-top: 10px;
+}

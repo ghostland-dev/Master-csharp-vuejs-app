@@ -1,0 +1,32 @@
+
+@model List<ASPRad.Models.Monnaies>
+    @{
+    Layout = "_ReportLayout";
+    }
+    <div id="report-title"><h1></h1></div>
+    <table class="table table-sm table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Symbole</th>
+                <th>Description</th>
+                <th>Valeur</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var record in Model)
+            {
+            <tr>
+                <td>@record.id</td>
+                <td>@record.symbole</td>
+                <td>@record.description</td>
+                <td>@record.valeur</td>
+                <td>@record.date</td>
+            </tr>
+            }
+            
+        </tbody>
+    </table>
+    
+    

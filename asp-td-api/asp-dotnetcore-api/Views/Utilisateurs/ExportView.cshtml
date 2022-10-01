@@ -1,0 +1,33 @@
+
+@model List<ASPRad.Models.Utilisateurs>
+    @{
+    Layout = "_ReportLayout";
+    var record = Model.First();
+    }
+    
+    <div id="report-title"><h1></h1></div>
+    <table class="table table-sm table-striped">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>@record.id</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>@record.nom</td>
+            </tr>
+            <tr>
+                <th>Prenom</th>
+                <td>@record.prenom</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>@record.email</td>
+            </tr>
+            <tr>
+                <th>Tel</th>
+                <td>@record.tel</td>
+            </tr>
+        </tbody>
+    </table>
+    

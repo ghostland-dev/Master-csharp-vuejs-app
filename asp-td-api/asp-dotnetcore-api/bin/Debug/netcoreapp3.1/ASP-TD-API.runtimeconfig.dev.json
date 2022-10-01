@@ -1,0 +1,14 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\imouy\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\imouy\\.nuget\\packages",
+      "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5",
+      "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6",
+      "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v5",
+      "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}

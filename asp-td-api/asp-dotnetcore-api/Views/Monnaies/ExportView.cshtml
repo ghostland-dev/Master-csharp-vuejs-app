@@ -1,0 +1,33 @@
+
+@model List<ASPRad.Models.Monnaies>
+    @{
+    Layout = "_ReportLayout";
+    var record = Model.First();
+    }
+    
+    <div id="report-title"><h1></h1></div>
+    <table class="table table-sm table-striped">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>@record.id</td>
+            </tr>
+            <tr>
+                <th>Symbole</th>
+                <td>@record.symbole</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>@record.description</td>
+            </tr>
+            <tr>
+                <th>Valeur</th>
+                <td>@record.valeur</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>@record.date</td>
+            </tr>
+        </tbody>
+    </table>
+    
