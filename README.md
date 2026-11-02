@@ -114,4 +114,9 @@ For any inquiries or feedback, please contact Ismail Mouyahada
 - [Vue.js](https://vuejs.org/)
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
- 
+## Author
+
+**Ismail.M**, Software Engineer & DevOps
+
+- GitHub: [@ghostland-dev](https://github.com/ghostland-dev)
+- Website: [ismail-mouyahada.com](https://www.ismail-mouyahada.com)
